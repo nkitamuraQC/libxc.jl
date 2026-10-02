@@ -1,0 +1,1 @@
+julia --project=@. libxc_bridge.jl
