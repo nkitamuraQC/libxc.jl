@@ -18,5 +18,5 @@ See `example.sh` and `example.jl`
 
 ## Test
 ```sh
-bash test.jl
+bash test.sh
 ```
