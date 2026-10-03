@@ -1,3 +1,5 @@
+module Libxc
+
 using PyCall
 using Test
 
@@ -63,3 +65,5 @@ end
 if abspath(PROGRAM_FILE) == @__FILE__
     main()
 end
+
+end # module Libxc
