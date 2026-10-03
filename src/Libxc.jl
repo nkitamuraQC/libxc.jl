@@ -3,6 +3,10 @@ module Libxc
 using PyCall
 using Test
 
+const LIBXC_ROOT = dirname(dirname(@__FILE__))
+
+pushfirst!(PyVector(pyimport("sys")."path"), LIBXC_ROOT)
+
 ENV["PYTHON"] = "python"
 
 const pylibxc = pyimport("pylibxc")
