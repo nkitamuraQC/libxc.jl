@@ -1,1 +1,1 @@
-julia --project=@. libxc_bridge.jl
+julia --project=@. ./src/Libxc.jl

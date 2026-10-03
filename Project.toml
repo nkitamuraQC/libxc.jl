@@ -1,2 +1,10 @@
+name = "Libxc"
+uuid = "c21c8064-0baf-4982-9549-6ccb7807d838"
+version = "0.1.0"
+authors = ["Naoki Kitamura"]
+
 [deps]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+[compat]
+PyCall = "1.96.4"

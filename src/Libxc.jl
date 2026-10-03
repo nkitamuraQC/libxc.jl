@@ -1,7 +1,7 @@
 using PyCall
 using Test
 
-ENV["PYTHON"] = "/Users/username/hoge/bin/python"
+ENV["PYTHON"] = "python"
 
 const pylibxc = pyimport("pylibxc")
 const np = pyimport("numpy")
